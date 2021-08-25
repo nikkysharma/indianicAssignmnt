@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "187463872917",
+    "project_id": "testotp-5da81",
+    "storage_bucket": "testotp-5da81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187463872917:android:ec4c248adcc9e37de7469c",
+        "android_client_info": {
+          "package_name": "com.example.indianicassigment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187463872917-k4hk0jobqrv3bt01lqo357qjt4rhdni6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW6y0yc8oTnvtF5SyqRGldS1nNwrMXwVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187463872917-k4hk0jobqrv3bt01lqo357qjt4rhdni6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

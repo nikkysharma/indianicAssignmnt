@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nic Assigment</string>
+    <string name="check_internet">Please check your network connection.</string>
+    <string name="phone_no">"Phone "</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="expires_in">Expired in</string>
+    <string name="resend_otp_cap">Resend Otp</string>
+    <string name="did_nt_receive_the_otp">"Didn't receive the OTP ? "</string>
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="cancel">Cancel</string>
+    <string name="button_ok">Ok</string>
+    <string name="try_again">Try Again</string>
+    <string name="this_is_dialog_title">This is Diaoge Tittle</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="please_wait_text">Please Wait</string>
+    <string name="enter_mobile">Enter phone Number</string>
+    <string name="enter_valid_mobile">Enter Valid Number</string>
+    <string name="enter_valid_otp">The verification code entered was invalid</string>
+</resources>

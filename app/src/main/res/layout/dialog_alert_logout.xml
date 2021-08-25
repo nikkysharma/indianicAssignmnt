@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_10sdp"
+    android:padding="@dimen/_15sdp"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardBackgroundColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textview_dialog_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:text="@string/app_name"
+                        android:textSize="@dimen/_14sdp" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textView_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:text=""
+                    android:textSize="@dimen/_12sdp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@android:color/darker_gray" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/button_dialog_cancel"
+                        android:layout_width="0dp"
+                        android:layout_weight=".99"
+                        android:layout_height="@dimen/_40sdp"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:visibility="visible"
+                        android:text="@string/no"
+                        android:textColorHint="@android:color/holo_blue_dark"
+                        android:textColor="@android:color/holo_blue_dark"
+
+
+                        android:textSize="@dimen/_12sdp" />
+                    <View
+                        android:id="@+id/vw_line"
+                        android:layout_width="2dp"
+
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+
+                        />
+                    <Button
+                        android:id="@+id/button_dialog"
+                        android:layout_width="0dp"
+                        android:layout_weight=".98"
+                        android:layout_height="@dimen/_40sdp"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:text="@string/yes"
+                        android:visibility="visible"
+                        android:textColorHint="@android:color/holo_blue_dark"
+                        android:textColor="@android:color/holo_blue_dark"
+
+                        android:textSize="@dimen/_12sdp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

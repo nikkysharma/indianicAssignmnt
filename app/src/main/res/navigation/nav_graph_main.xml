@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_auth"
+    app:startDestination="@id/locationFragment"
+   >
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.indianicassigment.view.fragment.main.MainViewFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_main_view">
+        <action
+            android:id="@+id/action_mainFragment_to_detailFragment"
+            app:enterAnim="@anim/right_to_left_enter"
+            app:exitAnim="@anim/right_to_left_exit"
+            app:popEnterAnim="@anim/slide_left"
+            app:popExitAnim="@anim/slide_right"
+            app:destination="@id/detailFragment"/>
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.indianicassigment.view.fragment.detail.DetailFragment"
+        android:label="Reg"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment_to_locationFragment"
+            app:enterAnim="@anim/right_to_left_enter"
+            app:exitAnim="@anim/right_to_left_exit"
+            app:popEnterAnim="@anim/slide_left"
+            app:popExitAnim="@anim/slide_right"
+            app:destination="@id/locationFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.indianicassigment.view.fragment.location.LocationViewFragment"
+        android:label="Forget Password"
+        tools:layout="@layout/fragment_location">
+
+
+
+    </fragment>
+
+
+
+</navigation>

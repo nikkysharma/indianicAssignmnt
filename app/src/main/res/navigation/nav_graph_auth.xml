@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_auth"
+    app:startDestination="@id/splashFragment"
+   >
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.indianicassigment.view.fragment.splash.SplashFragment"
+        android:label="spla"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph_auth"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/right_to_left_enter"
+            app:exitAnim="@anim/right_to_left_exit"
+            app:popEnterAnim="@anim/slide_left"
+            app:popExitAnim="@anim/slide_right"
+            app:destination="@+id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.indianicassigment.view.fragment.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_OtpFragment"
+            app:destination="@id/OtpFragment"
+            app:enterAnim="@anim/right_to_left_enter"
+            app:exitAnim="@anim/right_to_left_exit"
+            app:popEnterAnim="@anim/slide_left"
+            app:popExitAnim="@anim/slide_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/OtpFragment"
+        android:name="com.example.indianicassigment.view.fragment.otp.OtpFragment"
+        android:label="set Label"
+        tools:layout="@layout/fragment_otp">
+
+
+
+
+    </fragment>
+
+</navigation>

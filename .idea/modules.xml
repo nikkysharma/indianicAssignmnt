@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gitMy.iml" filepath="$PROJECT_DIR$/.idea/gitMy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IndiaNicAssigment.iml" filepath="$PROJECT_DIR$/.idea/modules/IndiaNicAssigment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IndiaNicAssigment.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IndiaNicAssigment.app.iml" />
     </modules>
   </component>
 </project>
